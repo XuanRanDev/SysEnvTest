@@ -2,6 +2,7 @@ import os
 import requests
 env = os.environ
 print(os.environ.get("USERS", ""))
+pushMessage()
 
 
 
