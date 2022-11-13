@@ -28,4 +28,5 @@ jobs:
       env:
         USERS: ${{ secrets.USERS }}
       run: |
+        pip install requests
         python main.py
