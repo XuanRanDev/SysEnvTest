@@ -28,6 +28,6 @@ jobs:
 
     - name: test
       env:
-        USERS: ${{ secrets.user }}
+        USERS: ${{ secrets.USER }}
       run: |
         python main.py
