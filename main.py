@@ -1,3 +1,3 @@
 import os
 env = os.environ
-print(os.environ.get("USERS", "")
+print(os.environ.get("USERS", ""))
