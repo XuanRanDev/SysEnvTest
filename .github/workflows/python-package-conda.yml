@@ -32,3 +32,8 @@ jobs:
       run: |
         conda install pytest
         pytest
+    - name: test
+      env:
+        user: ${{user}}
+      run: |
+        python main.py
